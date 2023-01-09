@@ -29,7 +29,7 @@ body{
     border-radius: 20px;
     transition: ease-in-out 0.5s;
     border: solid rgb(152, 216, 251) 5px;
-
+    cursor: pointer;
 }
 
 
