@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 50px;
+}
+
+body{
+    height: 2500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #efedd6;
+    overflow-x: hidden;
+}
+
+.card{
+    display: flex;
+    width: 300px;
+    height: 150px;
+    background-color: #4682b4;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    transition: ease-in-out 0.3s;
+    border-radius: 10px;
+    box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.3) ;
+}
+
+.left{
+    transform: translateX(-400%);
+}
+
+.right{
+    transform: translateX(400%);
+}
+
+.show{
+    transform: translateX(0%);
+}
