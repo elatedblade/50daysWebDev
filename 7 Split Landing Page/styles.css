@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.section{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: grayscale(75%);
+    transition: ease-in-out 1s;
+}
+
+.ps{
+    background-image: url("https://wallpapers.com/images/hd/ps5-black-edition-6rddvh7aw3tta7ff.jpg");
+    background-size: cover;
+    background-position-x: 30%;
+}
+
+.ps:hover{
+    filter: grayscale(0%);
+}
+
+.xbox{
+    background-image: url("https://images.alphacoders.com/111/thumb-1920-1113834.png");
+    background-image: url("https://wallpapercave.com/wp/wp2113612.jpg");
+    background-size: cover;
+    background-position-x: center;
+}
+
+.xbox:hover{
+    filter: grayscale(0%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.btn{
+    width: 225px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid white 3px;
+    color: white;
+    transform: translateY(75%);
+
+}
+
+#psBtn:hover{
+    background-color: #7f7ded;
+    border: solid #7f7ded 3px;
+}
+
+#xboxBtn:hover{
+    background-color: #0e7a0d;
+    border: solid #0e7a0d 3px;
+}
+
+
+/* Shifting sizes */
+
+.hover{
+    width: 75%;
+}
+
+.no-hover{
+    width: 25%;
+}
